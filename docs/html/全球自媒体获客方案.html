@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>全球自媒体矩阵获客方案 V2.0（评审优化版）</title>
+<style>
+  :root{
+    --primary:#0f3460; --accent:#e94560; --bg:#f7f8fa; --card:#ffffff;
+    --text:#2b2d35; --muted:#6b7280; --line:#e5e7eb; --ok:#0e9f6e; --warn:#c27803;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:"PingFang SC","Microsoft YaHei","Noto Sans CJK SC",sans-serif;background:var(--bg);color:var(--text);line-height:1.75;font-size:15px}
+  .wrap{max-width:1000px;margin:0 auto;padding:32px 24px 80px}
+  header.hero{background:linear-gradient(135deg,#0f3460 0%,#16213e 100%);color:#fff;border-radius:14px;padding:40px 36px;margin-bottom:28px}
+  header.hero h1{font-size:26px;letter-spacing:1px}
+  header.hero p{margin-top:10px;color:#cfd8ea;font-size:14px}
+  header.hero .tags{margin-top:14px}
+  .tag{display:inline-block;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.25);border-radius:999px;padding:2px 12px;font-size:12px;margin-right:8px}
+  h2{font-size:19px;color:var(--primary);margin:36px 0 14px;padding-left:12px;border-left:4px solid var(--accent)}
+  h3{font-size:16px;color:var(--primary);margin:22px 0 10px}
+  p{margin:8px 0}
+  ul,ol{margin:8px 0 8px 22px}
+  li{margin:4px 0}
+  table{width:100%;border-collapse:collapse;margin:12px 0;background:var(--card);font-size:14px}
+  th{background:var(--primary);color:#fff;padding:9px 12px;text-align:left;font-weight:600}
+  td{padding:9px 12px;border-bottom:1px solid var(--line);vertical-align:top}
+  tr:nth-child(even) td{background:#fafbfd}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:22px 26px;margin:14px 0}
+  .review{background:#fff8f1;border:1px solid #f3d9b1;border-radius:12px;padding:22px 26px;margin:14px 0}
+  .review h2{border-left-color:var(--warn);color:#92400e;margin-top:0}
+  .pill-ok{color:var(--ok);font-weight:600}
+  .pill-warn{color:var(--warn);font-weight:600}
+  .pill-bad{color:var(--accent);font-weight:600}
+  .flow{background:#0f3460;color:#dbe4f3;border-radius:12px;padding:18px 22px;font-family:ui-monospace,Consolas,monospace;font-size:13.5px;white-space:pre;overflow-x:auto;margin:12px 0}
+  .callout{border-left:4px solid var(--accent);background:#fdf2f4;padding:12px 16px;border-radius:0 8px 8px 0;margin:12px 0}
+  .callout.green{border-left-color:var(--ok);background:#f0fbf6}
+  footer{margin-top:48px;color:var(--muted);font-size:12.5px;text-align:center}
+  @media print{body{background:#fff}.wrap{padding:0}.card,.review{break-inside:avoid}}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header class="hero">
+  <h1>全球自媒体矩阵获客方案 <span style="color:#ffb4c2">V2.0</span></h1>
+  <p>元器件 / BOM / PCBA 行业 · 多主体合规矩阵 · AI 内容流水线驱动 · 以询盘为北极星指标</p>
+  <div class="tags">
+    <span class="tag">评审优化版</span><span class="tag">4 内地主体 + 香港 + 美国</span><span class="tag">AI 内容系统</span><span class="tag">窗口期联动</span>
+  </div>
+</header>
+
+<section class="review">
+  <h2>评审记录（V1.0 → V2.0）</h2>
+  <table>
+    <tr><th style="width:34%">V1.0 问题</th><th style="width:12%">严重度</th><th>V2.0 优化动作</th></tr>
+    <tr><td>矩阵规划未结合公司实际持有的 6 个主体资源，账号额度凭感觉</td><td class="pill-bad">高</td><td>新增「第五章 · 主体×平台账号额度规划表」，按各平台现行认证规则逐项落到执照</td></tr>
+    <tr><td>无量化 KPI，无法考核团队与判断 ROI</td><td class="pill-bad">高</td><td>新增 90 天 / 12 个月量化目标（账号数、询盘数、加微数、成交转化基准）</td></tr>
+    <tr><td>内容生产 SOP 未接入已建成的 AI 内容生成系统</td><td class="pill-warn">中</td><td>第三章重写为「AI 内容流水线」：数据→AI 初稿→人审→人设化改写→错峰分发</td></tr>
+    <tr><td>缺运营预算，无法纳入全局资金盘</td><td class="pill-warn">中</td><td>新增年度预算表（约 55 万/年），与《窗口期全局策划》预算口径对齐</td></tr>
+    <tr><td>账号安全风控缺失（设备/IP/内容查重），矩阵越大风险越集中</td><td class="pill-warn">中</td><td>新增「第八章 · 账号风控与合规」操作规范</td></tr>
+    <tr><td>选题日历与窗口期行情主轴结合不紧</td><td class="pill-ok">低</td><td>选题权重调整：行情类内容占比提升至 50%，明确为窗口期主轴</td></tr>
+  </table>
+</section>
+
+<h2>一、整体思路</h2>
+<div class="flow">行业素材库(型号/BOM/封装/图视频) + 18年行业数据
+        │
+        ▼
+AI 内容流水线（一份数据 → N 种人设表达）
+        │
+        ▼
+多主体合规账号矩阵（官方/品类/员工/生态 四层）
+        │
+        ▼
+私域承接（WhatsApp / 微信 · 30分钟报价 SLA）
+        │
+        ▼
+CRM(java1bom) → 报价 → 现款成交 → 复购/渠道</div>
+<p>元器件行业素材永远用不完，瓶颈从来不是素材，而是<strong>结构化、模板化、流水线化</strong>。窗口期内容主轴只有一个字：<strong>行情</strong>——缺料时期采购全网找信息，"消息灵通 + 手里有货"是最短获客路径。</p>
+
+<h2>二、形象包装：三类人设</h2>
+<table>
+  <tr><th>人设</th><th>定位</th><th>主战平台</th><th>内容风格</th></tr>
+  <tr><td><strong>现货供应商</strong></td><td>有货、有渠道、报价快</td><td>LinkedIn / Facebook / WhatsApp</td><td>库存实拍、到货开箱、出货打包、报价速度</td></tr>
+  <tr><td><strong>选型顾问 / 行业老兵</strong></td><td>懂料、懂替代、懂行情（18年经验人格化）</td><td>LinkedIn / 知乎 / YouTube / B站</td><td>选型对比、国产替代、价格走势解读</td></tr>
+  <tr><td><strong>工厂/仓库一线</strong></td><td>真实透明的供应链</td><td>TikTok / 抖音 / Reels / 视频号</td><td>仓库巡场、检测过程、芯片微距特写</td></tr>
+</table>
+<div class="card">
+<h3>账号上线包装清单</h3>
+<ul>
+  <li><strong>头像</strong>：真人职业照或品牌 LOGO，矩阵内风格统一</li>
+  <li><strong>昵称</strong>：姓名+角色+领域，如 <code>Amy | IC Sourcing | MCU &amp; Power</code></li>
+  <li><strong>简介</strong>：一句话价值主张 + 主营品类 + WhatsApp/邮箱</li>
+  <li><strong>置顶</strong>：公司介绍视频 或 爆款替代料对比帖</li>
+  <li><strong>预热</strong>：正式获客前垫底 10~20 条内容，避免空号感</li>
+</ul>
+</div>
+
+<h2>三、AI 内容流水线（V2.0 重写）</h2>
+<div class="flow">行情数据库(日更:报价/交期/原厂动态)
+   │
+   ▼
+AI 批量生成初稿 ──┬─ 行情播报(日)
+                  ├─ 型号深度解析(参数/应用/替代/行情)
+                  ├─ 替代料横评(PIN2PIN/国产替代)
+                  └─ BOM降本案例(脱敏)
+   │
+   ▼
+人工审核：①数据准确性 ②加入操盘观点(AI写不出的部分=护城河)
+   │
+   ▼
+按账号人设改写(供应商版/顾问版/一线版 × 中英双语)
+   │
+   ▼
+矩阵错峰分发 + 评论私信集中承接(每日2个时段)</div>
+<div class="callout"><strong>芯雷达生产门禁：</strong>每条仅陈述一个观点，按账号真实受众组织表达；人物身份、面部基准与服装刺绣锁定，必要时加入真实小程序证据与唯一行动入口。执行<a href="#chipradar-video-rules">下方视频生产规范</a>。改写、错峰或查重阈值不构成绕过平台判重的保证。</div>
+
+<h3>素材八维 × 内容化</h3>
+<table>
+  <tr><th>维度</th><th>内容化方式</th><th>窗口期权重</th></tr>
+  <tr><td>行情（价格/交期）</td><td>日播报、缺货预警、拐点解读</td><td class="pill-bad">50%（主轴）</td></tr>
+  <tr><td>型号/替代</td><td>单型号解析、PIN2PIN 替代、国产替代横评</td><td class="pill-warn">25%</td></tr>
+  <tr><td>BOM/成本</td><td>配单全过程、降本案例、阶梯价科普</td><td class="pill-warn">15%</td></tr>
+  <tr><td>视觉信任（封装/包装/检测/仓库）</td><td>微距特写、开箱、X-Ray、打包发货、真假料对比</td><td class="pill-ok">10%（穿插）</td></tr>
+</table>
+
+<h2>四、平台矩阵布局</h2>
+<table>
+  <tr><th>平台</th><th>角色</th><th>获客路径</th></tr>
+  <tr><td>LinkedIn</td><td>海外主战场（B2B 决策人）</td><td>行情观点帖 → 主页询盘 / 精准添加采购与工程师</td></tr>
+  <tr><td>TikTok / 抖音 / 视频号</td><td>流量入口</td><td>微距+开箱+行情口播 → 主页导流 WhatsApp/微信</td></tr>
+  <tr><td>YouTube / B站 / 知乎</td><td>信任资产（长内容沉淀）</td><td>选型教程、横评 → 描述区链接留资</td></tr>
+  <tr><td>Facebook / 行业群组</td><td>社群运营</td><td>群内答疑 → 私信报价</td></tr>
+  <tr><td>X (Twitter)</td><td>行情快讯</td><td>缺货预警 → "消息灵通"人设</td></tr>
+  <tr><td>小红书 / 公众号</td><td>长尾搜索 + 私域沉淀</td><td>选型笔记、行情周报订阅</td></tr>
+  <tr><td>WhatsApp / 微信</td><td><strong>最终转化出口</strong></td><td>所有平台流量的私域承接 + 30 分钟报价 SLA</td></tr>
+</table>
+
+<h2>五、主体 × 平台账号额度规划（V2.0 新增）</h2>
+<p>公司持有 <strong>4 个内地主体（3 一般纳税人 + 1 小规模）+ 香港公司 + 美国公司</strong>，按各平台现行认证规则，合规额度如下：</p>
+<table>
+  <tr><th>平台</th><th>单执照额度</th><th>4 内地主体合计</th><th>说明</th></tr>
+  <tr><td>抖音蓝V</td><td>2 个（可申请扩容）</td><td><strong>8 个</strong></td><td>每个蓝V另可挂员工号（新版 5 个起，老版/升级等级可达 50）</td></tr>
+  <tr><td>微信公众号</td><td>2 个（可申请扩容）</td><td><strong>8 个</strong></td><td>扩容审批 1~3 个工作日</td></tr>
+  <tr><td>微信视频号</td><td>≤10 个</td><td><strong>按需 20+</strong></td><td>实际按运营产能开，不求满额</td></tr>
+  <tr><td>小红书专业号</td><td>3 个 + 20 员工号</td><td><strong>12 专业号 + 80 员工号额度</strong></td><td>员工号是规模主力</td></tr>
+  <tr><td>LinkedIn</td><td>公司主页不限 + Showcase</td><td>HK/US 主体各建主页</td><td>员工真实 Profile 不限量，每人 1 个</td></tr>
+  <tr><td>Facebook / Instagram</td><td>Page 不限</td><td>Business Manager 统管</td><td>个人 Profile 每人 1 个（真名制）</td></tr>
+  <tr><td>TikTok / YouTube / X</td><td>无硬性上限</td><td>按品类线开</td><td>禁止跨号重复内容与互刷</td></tr>
+</table>
+<div class="callout green"><strong>结论：</strong>不买号、不养假号，仅靠 6 个主体 + 8 人团队真实身份，第一年即可合规铺出 <strong>60~120 个活跃账号</strong>；配合员工号机制向 1000+ 扩张的路径是"团队扩编 + 合作伙伴生态"，而非批量注册。</div>
+
+<h3>四层矩阵结构</h3>
+<ol>
+  <li><strong>官方号层</strong>（旗舰主体 A 认证）：品牌权威内容</li>
+  <li><strong>品类号层</strong>（B/C/小规模主体分摊）：@XX-存储现货、@XX-车规MCU、@XX-电源IC，垂直且搜索友好</li>
+  <li><strong>员工号层</strong>（真实员工，平台官方员工号机制）：转化率最高的一层，公司供素材与模板</li>
+  <li><strong>生态号层</strong>（代理/分销/客户互动转发）：不占自有额度的外延扩散</li>
+</ol>
+
+<h2>六、转化漏斗与量化 KPI（V2.0 新增）</h2>
+<div class="flow">曝光 → 互动(评论区答疑) → 私域(WhatsApp/微信) → 询盘 → 报价 → 成交
+            2h内回评          24h内响应        30min报价SLA</div>
+<table>
+  <tr><th>指标</th><th>90 天目标</th><th>12 个月目标</th></tr>
+  <tr><td>活跃账号数</td><td>30 个</td><td>60~120 个</td></tr>
+  <tr><td>月新增私域好友（WhatsApp+微信）</td><td>200 人/月</td><td>800 人/月</td></tr>
+  <tr><td>月有效询盘（型号+数量+目标价齐全）</td><td>60 单/月</td><td>300 单/月</td></tr>
+  <tr><td>询盘→成交转化率</td><td>≥8%</td><td>≥15%（含复购）</td></tr>
+  <tr><td>矩阵贡献月成交额</td><td>50 万+</td><td>300 万+</td></tr>
+</table>
+<h3>提转化关键动作</h3>
+<ul>
+  <li><strong>钩子资产</strong>：免费 BOM 配单核价、替代料清单 PDF、行情周报订阅——用资料换联系方式</li>
+  <li><strong>响应即卖点</strong>：把"30 分钟报价"录屏做成内容本身</li>
+  <li><strong>信任凭证前置</strong>：检测报告、授权书、ERP 库存截图做置顶</li>
+  <li><strong>话术资产库</strong>：报价/议价/跟单话术模板化，矩阵复用并持续迭代</li>
+</ul>
+
+<h2>七、预算（V2.0 新增，年度）</h2>
+<table>
+  <tr><th>科目</th><th>金额（万元/年）</th><th>说明</th></tr>
+  <tr><td>内容运营人力（1 人专职）</td><td>15~20</td><td>AI 审核分发 + 账号运营 + 私信承接</td></tr>
+  <tr><td>拍摄设备与剪辑外包</td><td>8~12</td><td>微距镜头、灯光、外包剪辑件计</td></tr>
+  <tr><td>账号认证与企业服务</td><td>3~5</td><td>各平台蓝V/专业号年审</td></tr>
+  <tr><td>AI 系统算力与工具</td><td>6~10</td><td>生成算力、改写、排期分发工具</td></tr>
+  <tr><td>投流测试预算</td><td>10~15</td><td>仅用于放大已验证的爆款内容</td></tr>
+  <tr><td><strong>合计</strong></td><td><strong>42~62</strong></td><td>与《窗口期全局策划》预算表口径一致</td></tr>
+</table>
+
+<h2>八、账号风控与合规（V2.0 新增）</h2>
+<ul>
+  <li><strong>一号一档</strong>：每个账号登记主体、负责人、设备、手机号，建立台账</li>
+  <li><strong>设备与网络</strong>：员工号用员工自己的手机和网络（天然分散）；品类号固定设备，不混登</li>
+  <li><strong>内容查重</strong>：分发前过自建查重（同批内容相似度阈值控制），杜绝原样多发</li>
+  <li><strong>三条红线</strong>：①不买卖账号、不用虚假身份；②账号间不互刷互赞；③员工离职账号交接流程（员工号随人走的，提前在简介沉淀公司联系方式）</li>
+  <li><strong>分级备份</strong>：核心私域（WhatsApp/微信客户）每周导出 CRM，账号被封不丢客户</li>
+</ul>
+
+<h2>九、90 天排期</h2>
+<table>
+  <tr><th>阶段</th><th>时间</th><th>目标</th></tr>
+  <tr><td>冷启动</td><td>第 1~4 周</td><td>素材库建成；4 主体完成首批认证；20 个号上线，各垫底 15 条；AI 流水线打通</td></tr>
+  <tr><td>跑通漏斗</td><td>第 5~8 周</td><td>行情播报日更稳定；首批 60 单询盘；话术库 V1 沉淀</td></tr>
+  <tr><td>放量复制</td><td>第 9~12 周</td><td>爆款模板化；扩员工号层至 30+；上线查价工具做钩子；启动投流测试</td></tr>
+</table>
+
+<section id="chipradar-video-rules">
+<h2>芯雷达视频生产规范（2026-10-03 同步）</h2>
+<h3>适用范围、依据与原方案衔接</h3>
+<p>本节是芯雷达视频的生产与验收约束，接入既有“素材→内容→矩阵→私域→询盘→报价→成交→复购/渠道合作”链路。保留官方号、品类号、员工号、合作伙伴四层矩阵，保留原选题栏目、KPI、团队配置和获客承接。栏目是选题池，不能直接变成一条包含多个结论的视频。</p>
+<p>依据：用户本次明确确认的四项规则；《芯雷达｜视频号项目指令 V2.0》（2026-09-30）；《芯雷达_核心记忆与成果数据源_V1.0.txt》（入口名不变，含 2026-10-02 双主讲 V2.1 更新）。发生冲突时以最新明确用户决定为准。本次已读取该核心文件；未据此宣称人物原图、动效或小程序提交路径已经验收。</p>
+<table><thead><tr><th>原内容的冲突或缺口</th><th>本次执行修正</th></tr></thead><tbody>
+<tr><td>型号深度解析包含参数、应用、替代、行情，容易一片多结论</td><td>每条先确定唯一结论，其余作为相关证据或拆成独立选题</td></tr>
+<tr><td>按账号人设改写、一份数据多种表达，未区分业务角色与人物身份</td><td>允许改变切入角度与表达；每位主讲使用各自已确认母版，不换脸、不挪用履历</td></tr>
+<tr><td>重新剪辑、配文案被表述为规避重复判定的方式</td><td>按真实受众需求形成内容差异；不承诺改写、错峰、相似度阈值可以绕过判重</td></tr>
+<tr><td>素材库只有行业分类标签</td><td>增加人物、服装刺绣、证据快照、音轨、分镜及确认状态台账</td></tr>
+<tr><td>私域及查价工具已有承接方向，缺少视频内证据和入口规范</td><td>小程序承担必要的数据佐证与单一行动入口，回流原 Lead/CRM，不替代海外承接</td></tr>
+<tr><td>缺逐镜交付与发布前验收</td><td>增加六镜/九镜模板、验收表和退回机制；静态图不算成片</td></tr>
+</tbody></table>
+<h3>1. 单观点与单一主行动</h3>
+<p>每条视频立项必须填写：<strong>一个目标人群、一句核心结论、支持证据、一个主行动（CTA）</strong>。芯雷达优先服务元器件同行、贸易商、业务员和渠道，终端及方案商为次级受众。</p>
+<ul>
+<li>标题、前三秒钩子、人物解读、每项数据、小程序镜头及片尾全部服务该结论。无法说明关联的内容删除或另拆视频。</li>
+<li>优选 2—3 项有效佐证，不凑数。同一库存的现值、历史值、差值不是三个独立来源；证据不足则收窄结论。</li>
+<li>每条只展开找货、盯货、出货匹配中的一项服务。首页三组文案分别为“缺料停线／全球渠道调拨”“帮你盯货／第一时间通知”“货盘在手／直接对上买家”；出货匹配不承诺成交。</li>
+<li>每条只选一个主行动。提报需求、关注、订阅到货通知、提交货盘、评论、转发等不可叠加索取。讲解中的步骤须共同服务主行动，不能顺带增加关注或转发要求。</li>
+<li>示例：结论“出现补货信号，之前因缺货未接住的需求值得重新核实”；相关证据是同口径补货记录；主行动可选“提报需求”。不得顺带宣称必涨、建议囤货或索取订阅。</li>
+<li>语气专业平实，像给同行提醒；钩子短促，数字稍慢，结论停顿。不得恐慌喊单、承诺收益。</li>
+</ul>
+<h3>2. 人物身份与刺绣锁定</h3>
+<p>双主讲规则来自 2026-10-02 更新，替代旧“只用女士”方向：A 男士优先解释数据口径、供给风险、价格判断与复盘；B 女士优先讲旧询价回访、需求澄清、采购比价、项目询价与交付核实。按唯一观点选角，<strong>单片一位主讲</strong>，数据镜头可以无人。女士姓名、履历、头衔不得编造；男士个人经历不得移植给女士。两位均须分别确认母版，候选图不得标成最终标准。</p>
+<table><thead><tr><th>项目</th><th>允许变化</th><th>必须保持 / 禁止事项</th></tr></thead><tbody>
+<tr><td>人物</td><td>场景需要的角度、视线、肢体动作、自然表情、配音驱动嘴型</td><td>身份、面部基准、脸型五官、年龄感、发型、眼镜、体型及整体形象一致；禁止中途换脸、男女特征混合</td></tr>
+<tr><td>服装</td><td>随动作产生的自然褶皱、光照和透视</td><td>深海蓝微光泽 Polo 方案固定，不任意改颜色、领型或服装</td></tr>
+<tr><td>胸前刺绣</td><td>与衣服同步的自然投影、镜头缩放及透视</td><td>图形、字标、颜色、尺寸比例、本人左胸位置及相对领口/门襟位置固定；禁止单独缩放、移位、镜像、增删字标或旋转</td></tr>
+<tr><td>屏幕雷达</td><td>使用独立屏幕图层做扫描动画</td><td>不驱动胸前刺绣旋转；复用小程序动效必须取得原资产</td></tr>
+</tbody></table>
+<p>制作优先直接复用已确认人物素材并保护人物区域。新角度或手势始终回到同一母版作参考，不能连续引用上一张衍生图造成累计漂移。生成式重绘不保证身份完全一致；不通过验收就退回合成或使用已批准静态主图。</p>
+<p>刺绣基准由素材负责人在批准母版上标注：图形边界、宽高比、相对门襟/领口的锚点及相对衣身宽度，记录归一化坐标和测量方法。不同角度结合衣身透视比较，不能要求屏幕像素绝对不变。当前未确认厘米尺寸与数值容差，不虚构制衣参数；无法确认是否漂移时退回复核。</p>
+<h3>3. 画面、分镜与精确排版</h3>
+<p>视频号默认 1080×1920、30fps；六镜约 30—40 秒，操作路径需要时可九镜约 40—45 秒，复盘可更长，最终按配音实测调整。海外横屏等版本按平台另行适配，并重新检查安全区，不机械裁切。</p>
+<ul>
+<li>黑灰背景、白色主文、品牌红强调；真实截图保持原始红绿配色。比价对象在形成结论前同等突出。</li>
+<li>有具体型号的每个编辑正文页，完整型号含全部后缀在顶部白字出现一次；片尾不显示。原始 UI 内型号保留，不为去重改截图。多型号比较保留各完整型号。</li>
+<li>1080 画布参考字号：型号 48—52px（长型号先扩布局，必要时 40px）、封面 64—72px、标题 64—80px、核心数字 112—144px、表格 36—44px、说明 28—32px、字幕 44—52px。</li>
+<li>重点安全区以 x72—900、y160—1600 为内部起点，避开右侧操作区和底部描述，实机检查；不是平台官方尺寸规范。</li>
+<li>一屏一个视觉重点；图表从准确数据绘制，字幕、型号、数值独立排版，生成图片内的文字不能充当正式精确数据。</li>
+<li>前三秒出现人物/型号/钩子，可同时短扫雷达，不用纯 Logo 片头占满前三秒。</li>
+<li>片尾 Logo 区域只用雷达 icon，不带 TI-ADI 字标、中文定位或英文；完整口号“TI-ADI缺货，找芯雷达，全球调！”全片出现一次，配唯一 CTA。胸前刺绣保留母版本身的 TI-ADI 字标。</li>
+</ul>
+<p>六镜默认结构（时间为策划起点，不能替代配音实测）：</p>
+<table><thead><tr><th>镜号 / 时间</th><th>画面任务</th><th>口播与字幕要求</th><th>证据 / 动作要求</th></tr></thead><tbody>
+<tr><td>01 / 0—3秒</td><td>人物、完整型号、短钩子及时出现</td><td>只提出本条需要解决的问题</td><td>使用本条主讲母版，视线看镜头</td></tr>
+<tr><td>02 / 3—10秒</td><td>第一项真实记录或对比</td><td>描述观察到的事实，读清数字与单位</td><td>标来源、时间、口径；人物可让位数据</td></tr>
+<tr><td>03 / 10—17秒</td><td>有效补充证据或第一证据的必要解释</td><td>不把同一数据的差值冒充新来源</td><td>无第二证据则收窄结论，不编数据</td></tr>
+<tr><td>04 / 17—25秒</td><td>主讲解释唯一结论</td><td>区分事实与推断，说明适用边界</td><td>可小幅开掌，脸部与刺绣保持一致</td></tr>
+<tr><td>05 / 25—33秒</td><td>小程序真实型号页 / 必要操作入口</td><td>将证据与本条主行动连起来</td><td>无需完整演示首页三服务；无对应入口则改用已验证承接</td></tr>
+<tr><td>06 / 33—40秒</td><td>纯雷达 icon、完整口号、唯一 CTA</td><td>收尾明确，不新增结论</td><td>不放型号；通常无人；不追加关注转发</td></tr>
+</tbody></table>
+<p>扩为九镜时，将“查询→正确型号页→证据定位→实际按钮”等必要步骤拆清楚，新增镜头只补证据或操作，不新增观点。没有真实页面就标待补录，不生成假操作实录。</p>
+<p>每条必须交付选题卡、封面文字、逐镜表、连续口播、证据清单、唯一 CTA 及待补素材。逐镜表必须逐行填全：</p>
+<table><thead><tr><th>镜号</th><th>起止时间</th><th>本镜服务的唯一结论</th><th>画面 / 构图</th><th>人物资产ID / 动作</th><th>原文口播</th><th>屏幕字幕</th><th>动画</th><th>配音指令</th><th>证据ID</th><th>CTA / 路径</th><th>验收状态</th></tr></thead><tbody>
+<tr><td>待填</td><td>秒</td><td>与选题卡一致</td><td>不只写“展示数据”</td><td>无人镜写“不适用”</td><td>可直接录音的原文</td><td>精确文字与数字</td><td>明确作用图层</td><td>语气、停顿、数字读法</td><td>可追溯快照</td><td>无则填“不适用”</td><td>待审 / 退回 / 通过</td></tr>
+</tbody></table>
+<h3>4. 小程序证据与转化承接</h3>
+<p>涉及具体型号信号，必须安排真实详情页截图或录屏佐证；小程序中的供应记录不能证明搜索热度等不同指标。需要时补首页查询、型号页、证据定位与真实按钮，不必每条完整介绍首页。</p>
+<ul>
+<li>保留来源、日期、完整型号、单位、地区及指标口径；放大可读区域，不改数，不把不同时点拼成同一时点。</li>
+<li>已观察到“查询”“提报需求”“关注”“订阅到货通知”“申请特价”等文字，不等于已测试流程。没有表单页和提交成功页，不展示虚构提交成功。</li>
+<li>构图参考必须标识“构图参考 / 待替换真实画面”；正式片替换原始截图或录屏。首页占位型号不是本条视频型号。</li>
+<li>发布前由运营验证本片 CTA 对应入口可用，记录检查时间与结果；入口不可用则修复或替换为已经验证的单一入口，并同步修改脚本和字幕。</li>
+<li>国内可从小程序承接需求进入原 Lead/CRM；海外继续使用实际可用的官网询盘、WhatsApp 等原渠道，不强制跳小程序。每条选择其中一个主入口，不删除后续私域跟进、报价和成交环节。</li>
+<li>为主行动登记平台、账号、视频ID、观点ID、完整型号、入口和线索来源。未接通自动归因时使用人工台账，不能声称系统已经接入。</li>
+<li>区分入口访问、提交成功、有效询盘和成交，点击量不算询盘。“订阅”指通知/周报获客，不引入 TI/ADI 数据付费订阅模式。</li>
+</ul>
+<h3>5. 数据证据登记与结论边界</h3>
+<p>每项证据登记：证据ID、来源文件/URL或快照、完整型号、采集时间与时区、统计窗口、单位、地区、指标口径、核实状态、价格条件、去重方式、支持结论和失效条件。核实状态区分用户陈述、截图观察、实时核验、推断、模拟。</p>
+<ul>
+<li>库存下降不等于销量；官网无货不等于全球无货；挂牌不等于可交付；搜索不等于订单。跨平台搜索人数不得相加，行业货源核实并去重。</li>
+<li>限购、交期延长须独立明示证据；不能由库存变化推断。云参考价、挂牌价、正式报价、成交价分开。</li>
+<li>比价统一完整型号、数量阶梯、品质、币种、税运、地区、交期和有效期。不能用一条库存变化宣称必涨、统一涨价或保证利润。</li>
+<li>历史截图标原日期，不称今日行情；模拟数据在所有相关镜头明确标识，不与真实截图数字混用。没有接入数据库或实时接口，不声称实时验证。</li>
+<li>ECCN 只是核查字段，不能单凭该字段判断可交易或禁止交易；具体判断须核实当期权威依据，疑似风险料进入核查，不宣传为投机机会。</li>
+</ul>
+<h3>6. 素材资产与版本要求</h3>
+<p>每张人物图独立生成、独立保存，不以九宫格或拼图代替可合成资产。建议每位主讲准备 5 个基础角度、4 个讲解手势、3 个表情，共 12 张；这是建议数量，不代表已完成。静态嘴型不等于口型同步，正式口型按定稿音轨驱动并检查。</p>
+<table><thead><tr><th>资产类别</th><th>必备内容</th><th>台账与验收要求</th></tr></thead><tbody>
+<tr><td>人物</td><td>原身份参考、候选正面图、批准母版、独立角度/动作图</td><td>人物ID、母版版本、来源、角度、动作、确认人/时间；男女资产分开</td></tr>
+<tr><td>服装与刺绣</td><td>原始 Logo、衣服母版、刺绣边界与锚点标注</td><td>比例、位置、测量方法、版本；工程厘米尺寸未确认须注明</td></tr>
+<tr><td>小程序与数据</td><td>原截图、原录屏、证据登记表</td><td>时间、来源、完整型号、指标口径、入口验证；脱敏不破坏证据含义</td></tr>
+<tr><td>品牌动效</td><td>纯雷达 icon、原始扫描动效（取得后登记）</td><td>与胸前刺绣分层；未取得动效不得标已接入</td></tr>
+<tr><td>单片交付包</td><td>选题卡、逐镜脚本、字幕、音轨、时间轴、工程、导出视频</td><td>统一视频ID、版本、主讲ID、证据ID、CTA、缺口及负责人</td></tr>
+</tbody></table>
+<p>资产记录至少包含：资产ID、文件路径、版本/校验值、参考来源ID、人物ID、角度/动作、确认状态、批准记录、替代关系。状态使用“原始参考 / 候选 / 已确认 / 已停用”，候选不能混入已确认库。修改沿用稳定入口并保留版本记录，不覆盖原始证据。</p>
+<p>已知线索：A 男士参考 IMG_3946(1).jpeg；B 女士身份参考 IMG_3935.jpeg、IMG_3934.jpeg、IMG_3932.jpeg，候选正面图 generated_images/exec-ec40968e-d1c8-4da7-a813-0446688fb49a.png；Logo 母版线索 8C1E00E5-B301-4CCC-97F4-87126EAC2C54.png。以上是来源索引，<strong>不是仓库已有文件或本次图像验收结果</strong>。找不到原资产须标缺失，不凭记忆重造；女士候选仍需最终确认。</p>
+<h3>7. 分镜与成片验收门禁</h3>
+<p>文案负责人完成选题/证据审核，剪辑或素材负责人检查人物/刺绣/排版，运营检查入口及发布归因；可由现有团队兼任。任何必检项失败，退回对应工序并记录问题，不因排期紧张跳过。</p>
+<table><thead><tr><th>必检项</th><th>通过标准</th><th>退回情形</th></tr></thead><tbody>
+<tr><td>单观点</td><td>全片每镜均能归属选题卡的一句结论</td><td>同时讲补货、涨价、替代等不同结论</td></tr>
+<tr><td>单行动</td><td>口播、字幕、片尾及发布文案主 CTA 一致且只有一个</td><td>同时要求关注、转发、提报需求</td></tr>
+<tr><td>人物</td><td>与本位批准母版比对，身份和整体形象一致；动作自然</td><td>换脸、年龄感/五官漂移、混用身份履历或未批准候选</td></tr>
+<tr><td>刺绣</td><td>比对衣身锚点、比例和左右胸，变化只来自自然透视</td><td>单独放大、移位、镜像、改字或旋转</td></tr>
+<tr><td>证据</td><td>每个关键数字和判断均可追溯，口径一致</td><td>无源数字、旧图冒充实时、模拟混入实证</td></tr>
+<tr><td>小程序</td><td>型号和证据指标相符，必要操作真实可见</td><td>用供应页证明搜索量、虚构表单/提交成功</td></tr>
+<tr><td>精确内容</td><td>型号后缀、单位、数值、字幕与口播逐项核对</td><td>后缀截断、生成文字错误、结论前偏置比价对象</td></tr>
+<tr><td>版式品牌</td><td>一屏一重点、实机可读、型号顶部、片尾纯 icon + 一次完整口号</td><td>遮挡、片尾附加字标、刺绣被片尾规则误删</td></tr>
+<tr><td>动态质量</td><td>通看全片；关键转头/手势检查无脸或刺绣漂移，嘴型跟定稿音轨</td><td>只检查首帧、嘴型失配、手势遮挡证据</td></tr>
+<tr><td>交付状态</td><td>脚本、静态图、音轨、口型、成片分别登记完成/待审/通过</td><td>把脚本、拼图或效果图称为完整视频</td></tr>
+<tr><td>转化与发布</td><td>唯一入口已验证，线索能进入原承接链路，具备发布授权</td><td>假入口、把点击计为询盘、无授权自动发布</td></tr>
+</tbody></table>
+<p>审核记录：视频ID、版本、审查时间（Asia/Shanghai）、审查人、问题镜号、修复动作、复检结果。通过后才进入待发布队列；发现证据过期先复核再发布。</p>
+<h3>8. 矩阵排期与持续复盘</h3>
+<p>保留供应异动、采购比价、供需分歧、失衡复盘四个芯雷达主模板，与原三大常青栏目并存。补货回访、旧报价复核、限购分别作为单观点子题。账号人设差异不能破坏主讲身份；真实员工号不因使用讲解人物素材变成虚构员工身份。</p>
+<p>每天 3—5 条暂按芯雷达全矩阵规划，不代表每账号产量，也不覆盖原方案其他业务线规模目标。同日默认不同型号、不同观点；同型号只有新事实或新的复盘结论才更新，不能只换标题复制。中英版本保持同一证据口径、人物身份和单一观点，CTA 按目标市场实际入口调整。这是内部编辑规范，不是平台判重保证。</p>
+<p>沿用原询盘及成交指标，增加“单观点通过率、人物/刺绣退回数、证据缺失数、入口验证通过率”用于生产复盘。素材缺失先补齐，不能为完成产量而虚构证据。后台自动发布、数据接口和跨会话永久记忆均不因本规范写入而自动启用。</p>
+</section>
+
+<footer>全球自媒体矩阵获客方案 V2.0 · 评审优化版 · 与《窗口期全局运营策划 V2.0》配套使用</footer>
+</div>
+</body>
+</html>
+
